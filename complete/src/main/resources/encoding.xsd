@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:yourRandomKey="http://spring.io/guides/gs-producing-web-service"
+           xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           targetNamespace="http://spring.io/guides/gs-producing-web-service"
+           elementFormDefault="qualified">
+
+        <xs:element name="getCountryResponse">
+            <xs:complexType>
+            <xs:sequence>
+                <yourRandomKey:anyurivalue xsi:type="xsd:string">http://example.com</yourRandomKey:anyurivalue>
+                <yourRandomKey:base64binaryvalue xsi:type="xsd:base64Binary">U0dWc2JHOGdkMjl5YkdRPQ==</yourRandomKey:base64binaryvalue>
+                <yourRandomKey:booleanvalue xsi:type="xsd:boolean">true</yourRandomKey:booleanvalue>
+                <yourRandomKey:bytevalue xsi:type="xsd:byte">123</yourRandomKey:bytevalue>
+                <yourRandomKey:datetimevalue xsi:type="xsd:dateTime">2023-06-13T12:00:00</yourRandomKey:datetimevalue>
+                <yourRandomKey:datevalue xsi:type="xsd:date">2023-06-13</yourRandomKey:datevalue>
+                <yourRandomKey:daytimedurationvalue xsi:type="xsd:duration">P1DT2H3M4S</yourRandomKey:daytimedurationvalue>
+                <yourRandomKey:decimalvalue xsi:type="xsd:decimal">123.45</yourRandomKey:decimalvalue>
+                <yourRandomKey:doublevalue xsi:type="xsd:double">123.45</yourRandomKey:doublevalue>
+                <yourRandomKey:durationvalue xsi:type="xsd:duration">P1Y2M3DT4H5M6S</yourRandomKey:durationvalue>
+                <yourRandomKey:floatvalue xsi:type="xsd:float">123.45</yourRandomKey:floatvalue>
+                <yourRandomKey:hexbinaryvalue xsi:type="xsd:hexBinary">48656C6C6F</yourRandomKey:hexbinaryvalue>
+                <yourRandomKey:intvalue xsi:type="xsd:int">12345</yourRandomKey:intvalue>
+                <yourRandomKey:integervalue xsi:type="xsd:integer">123</yourRandomKey:integervalue>
+                <yourRandomKey:languagevalue xsi:type="xsd:language">en</yourRandomKey:languagevalue>
+                <yourRandomKey:longvalue xsi:type="xsd:long">123456789</yourRandomKey:longvalue>
+                <yourRandomKey:namevalue xsi:type="xsd:string">exampleName</yourRandomKey:namevalue>
+                <yourRandomKey:ncnamevalue xsi:type="xsd:NCName">exampleNCName</yourRandomKey:ncnamevalue>
+                <yourRandomKey:negativeintegervalue xsi:type="xsd:int">-123</yourRandomKey:negativeintegervalue>
+                <yourRandomKey:nonnegativeintegervalue xsi:type="xsd:nonNegativeInteger">123</yourRandomKey:nonnegativeintegervalue>
+                <yourRandomKey:nonpositiveintegervalue xsi:type="xsd:nonPositiveInteger">-123</yourRandomKey:nonpositiveintegervalue>
+                <yourRandomKey:normalizedstring xsi:type="xsd:normalizedString">Example Normalized String</yourRandomKey:normalizedstring>
+                <yourRandomKey:notationvalue xsi:type="xsd:QName" xmlns:ns2="http://example.com"
+                                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                             xsi:schemaLocation="http://example.com ">ns2:example
+                </yourRandomKey:notationvalue>
+                <yourRandomKey:positiveintegervalue xsi:type="xsd:positiveInteger">123</yourRandomKey:positiveintegervalue>
+                <yourRandomKey:shortvalue xsi:type="xsd:short">123</yourRandomKey:shortvalue>
+                <yourRandomKey:simplestring xsi:type="xsd:string">Example String</yourRandomKey:simplestring>
+                <yourRandomKey:timevalue xsi:type="xsd:time">12:00:00</yourRandomKey:timevalue>
+                <yourRandomKey:token xsi:type="xsd:token">ExampleToken</yourRandomKey:token>
+                <yourRandomKey:unsignedbytevalue xsi:type="xsd:unsignedByte">123</yourRandomKey:unsignedbytevalue>
+                <yourRandomKey:unsignedintvalue xsi:type="xsd:unsignedInt">12345</yourRandomKey:unsignedintvalue>
+                <yourRandomKey:unsignedlongvalue xsi:type="xsd:unsignedLong">123456789</yourRandomKey:unsignedlongvalue>
+                <yourRandomKey:unsignedshortvalue xsi:type="xsd:unsignedShort">12345</yourRandomKey:unsignedshortvalue>
+                <yourRandomKey:yearmonthdurationvalue xsi:type="xsd:yearMonthDuration">P1Y2M</yourRandomKey:yearmonthdurationvalue>
+                <yourRandomKey:gdayvalue xsi:type="xsd:gDay">---13</yourRandomKey:gdayvalue>
+                <yourRandomKey:gmonthdayvalue xsi:type="xsd:gMonthDay">--06-13</yourRandomKey:gmonthdayvalue>
+                <yourRandomKey:gmonthvalue xsi:type="xsd:gMonth">--06</yourRandomKey:gmonthvalue>
+                <yourRandomKey:gyearmonthvalue xsi:type="xsd:gYearMonth">2023-06</yourRandomKey:gyearmonthvalue>
+                <yourRandomKey:gyearvalue xsi:type="xsd:gYear">2023</yourRandomKey:gyearvalue>
+                <yourRandomKey:qnamevalue xsi:type="xsd:QName" xmlns:ns2="http://example.com"
+                                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                          xsi:schemaLocation="http://example.com ">ns2:example
+                </yourRandomKey:qnamevalue>
+
+            </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+    </xs:schema>
